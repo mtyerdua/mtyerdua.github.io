@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link google](https://planning-bordeaux.inseecu.net/etudiant?identifiant=fUfnmRfDC3yVGkcg) and ![Image](src)
+[Link google](http://www.bordeaux.fr/) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
