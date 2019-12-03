@@ -3,7 +3,8 @@
     <meta charset=UTF-8>
     <html lang="fr"></html>
 <head>
-     <script src="//code.jquery.com/jquery.js"></script>
+    <span id="clock"></span>
+    <script src="//code.jquery.com/jquery.js"></script>
     <script src="//cdn.rawgit.com/hilios/jQuery.countdown/2.2.0/dist/jquery.countdown.min.js"></script>
 <title>Rick et Morty</title>
 </head>
@@ -49,7 +50,10 @@
     <br><br><br><br>
     </div>
 
-    <script type="text/javascript">
+    $('#clock').countdown('2020/10/10', function(event) {
+        $(this).html(event.strftime('%D days %H:%M:%S'));
+      });
+   <script type="text/javascript">
         // 15 days from now!
         var date = new Date(new Date().valueOf() + 15 * 24 * 60 * 60 * 1000);
         $('#clock').countdown(date, function(event) {
