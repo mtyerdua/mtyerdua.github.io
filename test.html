@@ -47,12 +47,13 @@
     
     
     <br><br><br><br>
-    
-    
-    <div id="conteneur">
-      <div class="element bleu"> Élément 1</div>
-      <div class="element orange"> Élément 2 </div>
-      <div class="element vert"> Élément 3 </div>
     </div>
-</body>
+
+    <script type="text/javascript">
+        // 15 days from now!
+        var date = new Date(new Date().valueOf() + 15 * 24 * 60 * 60 * 1000);
+        $('#clock').countdown(date, function(event) {
+          $(this).html(event.strftime('%D days %H:%M:%S'));
+        });
+      </script></body>
 </html>
