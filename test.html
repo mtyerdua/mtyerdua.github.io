@@ -26,18 +26,32 @@
     <ol>3. Relier la boite de conserve aux lunettes avec un deuxième câble</ol>
     <ol>4. Eloignez vous et laissez la magie opérer</ol> 
     <img src="luenttes.jpeg">
-<form action="/ma-page-de-traitement" method="post">
-        <div>
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="user_name">
-        </div>
-        <div>
-            <label for="mail">e-mail :</label>
-            <input type="email" id="mail" name="user_mail">
-        </div>
-        <div>
-            <label for="msg">Message :</label>
-            <textarea id="msg" name="user_message"></textarea>
+<<h3>MON FORMULAIRE</h3>
+
+<form action="fichier.php">
+ 
+  <fieldset><legend>Notre groupe de champs</legend> <input type="text" name="pseudo" size="30" maxlenght:"10" placeholder="Votre pseudo" required/>
+  <input type="password" name="pswd" size="30" maxlenght:"10" placeholder="Votre mot de passe" required/>
+  
+  <br><br>
+  
+   <label>Votre message :</label><textarea rows="7" cols="63"> </textarea>
+  <br><br>
+  <input type="submit" value="Envoyer" /> </fieldset>
+
+  
+  
+</form>
+
+
+<br><br><br><br>
+
+
+<div id="conteneur">
+  <div class="element bleu"> Élément 1</div>
+  <div class="element orange"> Élément 2 </div>
+  <div class="element vert"> Élément 3 </div>
+</div>ea id="msg" name="user_message"></textarea>
         </div>
 </form>
 </body>
